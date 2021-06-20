@@ -1,6 +1,4 @@
-//Indexファイル用のStyleSheet
-//Indexファイル：①全体TOP、②
-
+//Index.jsファイル用のStyleSheet
 .container{
   display: flex;
   justify-content: center;
@@ -9,6 +7,7 @@
   background-color: #EEE
 }
 
+// メインコンテンツ---------
 .mainContents{
   width: 70%;
   margin-right: 10px;
@@ -17,28 +16,74 @@
   flex-direction: column;
   align-items: center;
   background-color: #FFF;
+  // カードのCSS（Indexページで表示する形式）
+  .card{
+    height: 400px;
+    width: 80%;
+    background-color: #AAA;
+    &:hover{
+      cursor : pointer;
+    }
+  }
+  // 記事ページのCSS
+  .updated{
+    font-size: 12px;
+  }
+  .title{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    span{
+      color: red;
+    }
+  }
+  
 }
 
-.card{
-  height: 400px;
-  width: 80%;
-  background-color: #AAA;
-}
-
+// 右サイドのコンテンツ-------
 .sideContents{
   width: 30%;
   background-color: #FFF;
 }
-
-.profile{
-  height: 600px;
-  margin: 10px 0;
-  background-color: #AAF
-  
+.divider{
+  width:100%;
+  height: 10px;
+  background-color: #EEE;
 }
-
-.history{
-  height: 600px;
-  margin: 10px 0;
-  background-color: #FAF;
+.profile{
+  margin-bottom: 20px;
+  .profileTitle{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .profileContents{
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      border-radius: 50%;
+    }
+  }
+}
+.archive{
+  margin-bottom: 20px;
+  .archiveTitle{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .archiveContents{
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

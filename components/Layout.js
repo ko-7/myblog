@@ -24,6 +24,6 @@ export default function Layout(props) {
         {props.children}
       </div>
     </React.Fragment>
-    <Footer footer="🄫 2021 Shimura" />
+    <Footer footer="🄫 2021 Shimura All Rights Reserved." />
   </div>)
 }

@@ -22,8 +22,19 @@
   background-color: #111;
   color: white;
   font-size: 18px;
+  line-height: 48px;
   width: 30%;
   &:hover{
+    cursor: pointer;
     background-color: #555;
   }
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #FFF;
+  height: 50px;
 }
