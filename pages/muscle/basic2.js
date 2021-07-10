@@ -1,6 +1,3 @@
-// 記事のテンプレート
-// 書いたらpagesの各フォルダに格納する！
-
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';

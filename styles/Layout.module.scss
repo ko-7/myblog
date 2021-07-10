@@ -4,37 +4,62 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #111;
-  color: white;
+  border-bottom: 1px solid #888;
   font-size: 24px;
   height: 50px;
   padding: 0 30px;
+  @media screen and (max-width: 600px){
+    flex-direction: column;
+    height: 100px;
+  }
+}
+
+.headerLogo{
+  font-weight: bold;
+  @media screen and (max-width: 600px){
+    width: 100%;
+    text-align: left;
+  }
 }
 
 .headerMenu{
-  width: 30%;
+  width: 50%;
+  height: 50px;
   display: flex;
   justify-content: space-around;
+  @media screen and (max-width: 600px){
+    width: 100%;
+  }
+  @media screen and (min-width:1300px){
+    width: 30%;
+  }
 }
 
 .headerMenu button{
   border: none;
-  background-color: #111;
-  color: white;
+  border-bottom: 1px solid #888;
+  background-color: #FFF;
   font-size: 18px;
   line-height: 48px;
   width: 30%;
   &:hover{
     cursor: pointer;
-    background-color: #555;
+    border-bottom: 3px solid #888;
   }
+  @media screen and (max-width: 600px){
+    border: none;
+  }
+}
+.activePage{
+  background-color: #EEE !important;
+  color: #000 !important;
+  font-weight: bold;
 }
 
 .footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
-  color: #FFF;
+  border-top: 1px solid #888;
   height: 50px;
 }

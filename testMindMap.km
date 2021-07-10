@@ -1,0 +1,123 @@
+{
+    "root": {
+        "data": {
+            "id": "ccd3xacro6w0",
+            "created": 1624665698711,
+            "text": "年収"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ccd3ytfp46g0",
+                    "created": 1624665818611,
+                    "text": "勤労所得（直接的な収入）",
+                    "layout_mind_offset": {
+                        "x": -8.74999986961484,
+                        "y": 128.74999808147555
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccd47mfca8w0",
+                            "created": 1624666508630,
+                            "text": "給料"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccd482qvzt40",
+                            "created": 1624666544157,
+                            "text": "請負",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccd486y8lo80",
+                                    "created": 1624666553308,
+                                    "text": "HP制作"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccd48waxh0g0",
+                                    "created": 1624666608495,
+                                    "text": "松井さん案件"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccd4920jfqg0",
+                            "created": 1624666620927,
+                            "text": "オンライン講師",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": 12.499999813735542
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccd3ylik0940",
+                    "created": 1624665801370,
+                    "text": "不労所得（コツコツ積み上げる収入）",
+                    "layout_mind_offset": {
+                        "x": 408.74999390915053,
+                        "y": -96.24999856576318
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccd46hquq1s0",
+                            "created": 1624666420078,
+                            "text": "株",
+                            "layout_right_offset": {
+                                "x": 264.99999605119245,
+                                "y": -2.4999999627471254
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccd46ony57c0",
+                            "created": 1624666435140,
+                            "text": "アフィリエイト（ブログ＋インスタ）",
+                            "layout_right_offset": {
+                                "x": 443.74999338760983,
+                                "y": 2.499999962747097
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccd46ymfai80",
+                            "created": 1624666456815,
+                            "text": "アプリ",
+                            "layout_right_offset": {
+                                "x": 273.74999592080707,
+                                "y": 12.499999813735485
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import styles from '../styles/Index.module.scss';
-import Layout from '../components/Layout';
+import styles from '/styles/Index.module.scss';
+import Layout from '/components/Layout';
 
-import Profile from '../components/Profile';
-import Archive from '../components/Archive';
+import Profile from '/components/Profile';
+import Archive from '/components/Archive';
 
 export default function Home(){
   return (<Layout>
@@ -27,7 +27,6 @@ export default function Home(){
       <div className={styles.sideContents}>
         {/* プロフィール（右サイドコンテンツ） */}
         <Profile />
-        <div className={styles.divider} />
         {/* 過去記事アーカイブ（右サイドコンテンツ */}
         <Archive />
       </div>
