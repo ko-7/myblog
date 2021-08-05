@@ -21,13 +21,13 @@ export default function Header() {
         <button>全体TOP</button>
       </Link>
       <Link href="/it">
-        <button>IT</button>
+        <button>プログラミング</button>
       </Link>
       <Link href="/stock">
         <button>株</button>
       </Link>
       <Link href="/muscle">
-        <button>筋トレ</button>
+        <button>体づくり</button>
       </Link>
     </div>
   </div>);

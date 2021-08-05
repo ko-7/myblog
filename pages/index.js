@@ -8,12 +8,36 @@ import Layout from '/components/Layout';
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
 
-export default function Home(){
+export default function Index(){
   return (<Layout>
     <div className={styles.container}>
 
-      {/* メインコンテンツ */}
+      {/* メインコンテンツ -------------------------------------- */}
       <div className={styles.mainContents}>
+        {/* 各indexページへのリンク（プログラミング、株、体づくり） */}
+        <div className={styles.topCardWrapper}>
+          <Link href="/it">
+            <div className={styles.topCard}>
+              <h1>プログラミング</h1>
+              <img src="/itTop1.jpg" />
+              <p>プログラミングで自分の可能性を広げる</p>
+            </div>
+          </Link>
+          <Link href="/stock">
+            <div className={styles.topCard}>
+              <h1>株</h1>
+              <img src="/stockTop1.jpg" />
+              <p>株で自分の時間を使わず稼ぐ</p>
+            </div>
+          </Link>
+          <Link href="/muscle">
+            <div className={styles.topCard}>
+              <h1>体づくり</h1>
+              <img src="/muscleTop1.jpg" />
+              <p>「食事制限」＋「筋トレ」で理想の体になる</p>
+            </div>
+          </Link>
+        </div>
         <div>pages/index</div>
         <Link href="/it/JobChange">
           <div className={styles.card}>
@@ -23,7 +47,7 @@ export default function Home(){
       </div>
 
 
-      {/* 右サイドコンテンツ */}
+      {/* 右サイドコンテンツ ----------------------------------- */}
       <div className={styles.sideContents}>
         {/* プロフィール（右サイドコンテンツ） */}
         <Profile />

@@ -11,7 +11,7 @@ import Layout from '/components/Layout';
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
 
-export default function Home(){
+export default function TemplateArticle(){
   return (<Layout>
     <div className={styles.container}>
 

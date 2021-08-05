@@ -1,3 +1,6 @@
+// 記事のテンプレート
+// 書いたらpagesの各フォルダに格納する！
+
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,8 +10,17 @@ import Layout from '/components/Layout';
 
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
+import RecommendArticle from '/components/RecommendArticle';
 
-export default function Basic2(){
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment } from '/store/counterSlice'
+
+export default function Home(){
+
+  const count = useSelector(state => state.counter.value)
+  const dispatch = useDispatch()
+
+
   return (<Layout>
     <div className={styles.container}>
 
@@ -21,6 +33,28 @@ export default function Basic2(){
         <p>
           概要紹介<br />
         </p>
+        <RecommendArticle articleName="JobChange" text="testtext" />
+
+
+        <div>
+      <div>
+        <button
+          aria-label="Increment value"
+          onClick={() => dispatch(increment())}
+        >
+          Increment
+        </button>
+        <span>{count}</span>
+        <button
+          aria-label="Decrement value"
+          onClick={() => dispatch(decrement())}
+        >
+          Decrement
+        </button>
+      </div>
+    </div>
+
+
 
         {/* -----------------------------------見出し１-------------------------- */}
         <h2>見出し１</h2>

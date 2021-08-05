@@ -8,14 +8,14 @@ import Layout from '/components/Layout';
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
 
-export default function Home(){
+export default function JobChange(){
   return (<Layout>
     <div className={styles.container}>
 
       {/* /////////////////////メインコンテンツ//////////////////////////////// */}
       <div className={styles.mainContents}>
         {/* ---------------------------------メタ情報！！-------------------------- */}
-        <div className={styles.updated}>2021年6月20日</div>
+        <div className={styles.updated}>2021/6/20作成</div>
         <h1>未経験・地方でのWeb系転職は「インフラエンジニア」「大手SES企業」が狙い目です！</h1>
         <img className={styles.topPhoto} src='/it/JobChangeTop.png' />
         
@@ -52,17 +52,18 @@ export default function Home(){
           <li>１．組み込み系：　主にC言語やJavaを使い自動車やATMで使うプログラムを組む</li>
           <li>２．オープン系：　社内で使用するシステムをつくる</li>
           <li>３．Web系　　：　html,css,javascriptでフロントを作ったり、php,rubyなどでバックエンドを組む</li>
-          <li>４．インフラ系：　サーバー、ネットワークを整えるいわばITの基礎を整える</li>
+          <li>４．インフラ系：　サーバー、ネットワークなどITの基礎を整える</li>
         </ul>
         <p>
-          「え、Web系とインフラ系って違う業界なの？」<br />
+          「Web系とインフラ系って違う業界なの？」<br />
           と思う方もいると思うのですが、<br />
         </p>
-        <h4>インフラ系はサーバーを扱うのでWeb系以外にも、<br />
-          ATMや自動車などのデータをサーバーに集めたりするなど、<br />
-          組み込み系などIT業界に幅広く関わります。
+        <h4>
+          組み込み系でATMや自動車などのデータをサーバーに集るなどで使用したり、<br />
+          オープン系でも社内でデータを共有する場合にはサーバーを使用するなど、<br />
+          インフラ系はサーバーを扱うのでWeb系のみでなくIT全般に関わります。<br />
         </h4>
-        <h3>しかし、インフラはITの基礎なので確実に今後Webを勉強する上での力になります！</h3>
+        <h3>インフラはITの基礎なので確実に今後Webを勉強する上での力になります！</h3>
 
         {/* ---------------------------------見出し３--------------------------------------- */}
         <h2>インフラエンジニアの魅力</h2>

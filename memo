@@ -1,9 +1,8 @@
-収入の内訳
-　１．不労所得：コツコツ積み上げる収入
-　　・株
-　　・アフィリエイト（ブログ＋インスタ）
-　　・アプリ開発
-　２．勤労所得：直接的な収入
-　　・給料
-　　・請負（松井さん案件、クラウドソーシング案件、自力で営業）
-　　・メンター
+Reduxの導入　参照：https://redux.js.org/tutorials/quick-start
+手順１．reduxをインストール
+　　　　　npm install @reduxjs/toolkit react-redux
+手順２．reduxを管理するファイル(store.js)を作成する。
+手順３．/pages/_app.jsの<Component {...pageProps} />を<Provider store={store}>で囲む
+手順４．Sliceを作成する（管理する情報を整理するファイル。情報のまとまりごとに1つのSliceを作成する）
+手順５．store.jsにSliceを読み込む
+手順６．pages,componentでreduxのメソッドを呼び出しCRUDする。

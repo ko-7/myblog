@@ -9,7 +9,7 @@ export default function JobChange(){
       {/* <img width="60%" src="/totoro.png" /> */}
       <div>
         <span>IT(Web系)</span>、<span>株</span>、<span>筋トレ</span>
-        について私なりの日々の工夫、その他知識をお伝えします。<br /><br />
+        についての日々の工夫、その他知識をお伝えします。<br /><br />
         ブログタイトルの「て・く・て・く」はてくてく歩いていくように
         少しずつ前進していくイメージで名づけました。<br /><br />
         作業の合間など一息つきながら読んでいただければと思います。

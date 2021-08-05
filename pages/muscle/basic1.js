@@ -8,14 +8,15 @@ import Layout from '/components/Layout';
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
 
-export default function Home(){
+export default function Basic1(){
+
   return (<Layout>
     <div className={styles.container}>
 
       {/* /////////////////////メインコンテンツ//////////////////////////////// */}
       <div className={styles.mainContents}>
         {/* ---------------------------------メタ情報！！-------------------------- */}
-        <div className={styles.updated}>2021年7月10日</div>
+        <div className={styles.updated}>2021/7/10作成</div>
         <h1>筋トレを始める前に確認しておくべきこと 「目的とやるべきこと」</h1>
         <img className={styles.topPhoto} src='/muscle/basic1Top.jpg' />
         <p>
@@ -24,9 +25,9 @@ export default function Home(){
         </p>
 
         {/* -----------------------------------見出し１-------------------------- */}
-        <h2>筋トレの目的</h2>
+        <h2>筋トレ・ダイエットの目的</h2>
         <p>
-          筋トレをする目的は皆さまそれぞれだと思いますが、
+          筋トレ・ダイエットをする目的はそれぞれだと思いますが、
           「ダラッとした体を引き締めたい」という目的は共通しているのではないでしょうか。
         </p>
         <h4>

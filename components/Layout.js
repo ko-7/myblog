@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function Layout(props) {
-
   return (<div>
     <Head>
       <title>{props.title}</title>

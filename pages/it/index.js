@@ -8,13 +8,13 @@ import Layout from '/components/Layout';
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
 
-export default function Home(){
+export default function Index(){
   return (<Layout>
     <div className={styles.container}>
 
       {/* メインコンテンツ */}
       <div className={styles.mainContents}>
-        <div>pages/it/index</div>
+        <h1>pages/it/index</h1>
         <Link href="/it/JobChange">
           <div className={styles.card}>
           <p>コンテンツ</p>
