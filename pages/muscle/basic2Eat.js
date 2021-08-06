@@ -15,14 +15,24 @@ export default function Basic2(){
       {/* /////////////////////メインコンテンツ//////////////////////////////// */}
       <div className={styles.mainContents}>
         {/* ---------------------------------メタ情報！！-------------------------- */}
-        <div className={styles.updated}>更新日時：yyyy年m月d日</div>
-        <h1>記事タイトル</h1>
-        <img className={styles.topPhoto} src='#' />
+        <div className={styles.updated}>2021年8月7日</div>
+        <h1>食事制限⓵</h1>
+        <img className={styles.topPhoto} src='/muscle/basic2EatTop.jpg' />
         <p>
-          概要紹介<br />
+          食事制限を始めるにあたって、初めに食事制限の考え方を解説します。<br />
         </p>
 
         {/* -----------------------------------見出し１-------------------------- */}
+        <h2>やり方</h2>
+        <p>食事制限の流れは下のようになります。</p>
+        <ul>
+          <li>１．摂取カロリーを決める</li>
+          <li>２．栄養バランス(PFC)を考える</li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        
         <h2>見出し１</h2>
         <h3>強調（太大文字）</h3>
         <p>地の文⓵</p>

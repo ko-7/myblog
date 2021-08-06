@@ -27,7 +27,7 @@ export default function Index(){
             <div className={styles.topCard}>
               <h1>株</h1>
               <img src="/stockTop1.jpg" />
-              <p>株で自分の時間を使わず稼ぐ</p>
+              <p>株の長期投資で自分の時間を使わず稼ぐ</p>
             </div>
           </Link>
           <Link href="/muscle">
