@@ -55,6 +55,11 @@
     img{
       width: 100%;
     }
+    .imgSource{
+      margin-top: -10px;
+      text-align: right;
+      font-size: 14px;
+    }
   }
 
 
@@ -79,8 +84,12 @@
     font-size: 28px;
   }
   .topPhoto{
-    margin-bottom: 30px;
     width: 100%;
+  }
+  .topPhotoSource{
+    margin-top: 0;
+    text-align: right;
+    font-size: 14px;
   }
   h2{//小見出し
     width: 100%;

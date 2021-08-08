@@ -18,6 +18,7 @@ export default function JobChange(){
         <div className={styles.updated}>2021/6/20</div>
         <h1>未経験・地方でのWeb系転職は「インフラエンジニア」「大手SES企業」が狙い目です！</h1>
         <img className={styles.topPhoto} src='/it/JobChangeTop.png' />
+        <p className={styles.topPhotoSource}>HP管理人撮影</p>
         
         <p>
           業界未経験でIT業界(インフラ系)へ転職した経験から、

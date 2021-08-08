@@ -20,6 +20,7 @@ export default function Index(){
             <div className={styles.topCard}>
               <h1>プログラミング</h1>
               <img src="/itTop1.jpg" />
+              <p className={styles.imgSource}>photo by Pixabay</p>
               <p>プログラミングで自分の可能性を広げる</p>
             </div>
           </Link>
@@ -27,6 +28,7 @@ export default function Index(){
             <div className={styles.topCard}>
               <h1>株</h1>
               <img src="/stockTop1.jpg" />
+              <p className={styles.imgSource}>Photo by Sajad Nori on Unsplash</p>
               <p>株の長期投資で自分の時間を使わず稼ぐ</p>
             </div>
           </Link>
@@ -34,10 +36,12 @@ export default function Index(){
             <div className={styles.topCard}>
               <h1>体づくり</h1>
               <img src="/muscleTop1.jpg" />
+              <p className={styles.imgSource}>Photo by Gordon Cowie on Unsplash</p>
               <p>「食事制限」＋「筋トレ」で理想の体になる</p>
             </div>
           </Link>
         </div>
+        
         <div>pages/index</div>
         <Link href="/it/JobChange">
           <div className={styles.card}>

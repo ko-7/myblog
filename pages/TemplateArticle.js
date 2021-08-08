@@ -21,6 +21,7 @@ export default function TemplateArticle(){
         <div className={styles.updated}>更新日時：yyyy年m月d日</div>
         <h1>記事タイトル</h1>
         <img className={styles.topPhoto} src='#' />
+        <p className={styles.topPhotoSource}>画像の出典</p>
         <p>
           概要紹介<br />
         </p>

@@ -19,6 +19,7 @@ export default function Basic1(){
         <div className={styles.updated}>2021/7/10</div>
         <h1>体づくり（ダイエット＋筋トレ）を始める前に確認しておくべきこと</h1>
         <img className={styles.topPhoto} src='/muscle/basic1Top.jpg' />
+        <p className={styles.topPhotoSource}>Photo by Jenny Hill on Unsplash</p>
         <p>
           この記事では体づくり（ダイエット＋筋トレ）を始める前に、体づくりのために何をやったらいいのかをざっくり確認していきます。<br />
         </p>
