@@ -63,7 +63,7 @@ export default function Basic2(){
         </p>
         <h3>
           【消費カロリー　おすすめのWebページ】<br />
-          <a href="https://motivated.jp/modules/calom/index.php">
+          <a href="https://motivated.jp/modules/calom/index.php" target="_blank" rel="noopener noreferrer">
             https://motivated.jp/modules/calom/index.php
           </a>
         </h3>
@@ -153,9 +153,11 @@ export default function Basic2(){
           <li>●前提：「摂取カロリー ＜ 消費カロリー」は必須条件</li>
           <li>　</li>
           <li>●ステップ１：1日の消費カロリーを知る</li>
-          <a href="https://motivated.jp/modules/calom/index.php">
-            　このページで調べる：https://motivated.jp/modules/calom/index.php
-          </a>
+          <li>　このページで調べる ⇒ 
+            <a href="https://motivated.jp/modules/calom/index.php" target="_blank" rel="noopener noreferrer">
+              https://motivated.jp/modules/calom/index.php
+            </a>
+          </li>
           <li>　</li>
 
           <li>●ステップ２：1日の摂取カロリーを決める！</li>

@@ -10,11 +10,9 @@ export default function Header() {
   }
   return(
   <div className={styles.headerWrapper}>
-    <div className={styles.headerLogo}>
-      <Link href="/">
-        て・く・て・く
-      </Link>
-    </div>
+    <Link href="/">
+      <button className={styles.headerLogo}>て・く・て・く</button>
+    </Link>
 
     <div className={styles.headerMenu}>
       <Link href="/">
