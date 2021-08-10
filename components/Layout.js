@@ -6,12 +6,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function Layout(props) {
-  // Googleアナリティクス　コード
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-J007NN3F2B');
-
   return (<div>
     <Head>
       <title>{props.title}</title>
@@ -24,13 +18,13 @@ export default function Layout(props) {
 
       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-J007NN3F2B"></script>
-      {/* <script>　以下7行はexport default ～　return の間に入れれば良い？
+      <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag(){dataLayer.push(arguments)}
         gtag('js', new Date());
 
         gtag('config', 'G-J007NN3F2B');
-      </script> */}
+      </script>
     </Head>
 
     <Header header={props.header} title={props.title} />
