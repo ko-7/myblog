@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // GoogleAnalytics用のコード
-import Document, { Head, Main, NextScript } from 'next/document';
 import { GA_TRACKING_ID } from '../lib/gtag';
 
 export default function Layout(props) {
