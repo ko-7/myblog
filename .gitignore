@@ -57,3 +57,4 @@ amplifytools.xcconfig
 .secret-*
 #amplify-do-not-edit-end
 
+.env

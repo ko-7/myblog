@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // GoogleAnalytics用のコード
-import { GA_TRACKING_ID } from '../lib/gtag';
+import { existsGaId, GA_ID } from '../lib/gtag';
 
 export default function Layout(props) {
   return (<div>
@@ -20,22 +20,18 @@ export default function Layout(props) {
       <script src="flex-font-layout_editor_2.0.1.js"></script>
 
       {/* Global Site Tag (gtag.js) - Google Analytics */}
+      <script async srs={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
       <script
-          async
-          srs={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-        />
-        <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        dangerouslySetInnerHTML={{
+          __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', '${GA_ID}', {
               page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
+            });`,
+        }}
+      />
     </Head>
 
     <Header header={props.header} title={props.title} />

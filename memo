@@ -1,4 +1,11 @@
-Reduxの導入　参照：https://redux.js.org/tutorials/quick-start
+【Googleアナリティクスの導入】
+１．lib/gtag.jsの作成
+２．pages/_app.jsにコード追記
+　．/.envにIDを記述
+　．.gitignoreに.envを追記
+３．components/Layout.jsの<Head>タグ内にコード追記
+
+【Reduxの導入】　参照：https://redux.js.org/tutorials/quick-start
 手順１．reduxをインストール
 　　　　　npm install @reduxjs/toolkit react-redux
 手順２．reduxを管理するファイル(store.js)を作成する。
