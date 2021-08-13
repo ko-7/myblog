@@ -17,14 +17,9 @@ export default function Index(){
         {/* 新着記事　---------------------------------------- */}
         <h1>新着記事</h1>
         <LinkToArticle1
-          path="/muscle/basic1"
-          date="2021年7月10日"
-          title="体づくり（ダイエット＋筋トレ）を始める前に確認しておくべきこと"
-        />
-        <LinkToArticle1
-          path="/muscle/basic2Eat"
-          date="2021年8月7日"
-          title="【重要】食事制限⓵　準備編"
+          path="/muscle/basic4Training"
+          date="2021年8月11日"
+          title="筋トレ　おすすめのやり方"
         />
         <LinkToArticle1
           path="/muscle/basic3Eat"
@@ -32,9 +27,14 @@ export default function Index(){
           title="食事制限⓶　おすすめのやり方"
         />
         <LinkToArticle1
-          path="/muscle/basic4Training"
-          date="2021年8月11日"
-          title="筋トレ　おすすめのやり方"
+          path="/muscle/basic2Eat"
+          date="2021年8月7日"
+          title="【重要】食事制限⓵　準備編"
+        />
+        <LinkToArticle1
+          path="/muscle/basic1"
+          date="2021年7月10日"
+          title="体づくり（ダイエット＋筋トレ）を始める前に確認しておくべきこと"
         />
       </div>
 
