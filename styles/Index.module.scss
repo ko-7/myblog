@@ -62,17 +62,6 @@
     }
   }
 
-
-  // カードのCSS（Indexページで表示する形式）
-  .card{
-    height: 400px;
-    width: 80%;
-    background-color: #AAA;
-    &:hover{
-      cursor : pointer;
-    }
-  }
-
   // 記事ページのCSS
   .updated{
     width: 100%;

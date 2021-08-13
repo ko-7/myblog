@@ -15,9 +15,9 @@ export default function JobChange(){
       {/* /////////////////////メインコンテンツ//////////////////////////////// */}
       <div className={styles.mainContents}>
         {/* ---------------------------------メタ情報！！-------------------------- */}
-        <div className={styles.updated}>2021/6/20</div>
+        <div className={styles.updated}>2021年6月20日</div>
         <h1>未経験・地方でのWeb系転職は「インフラエンジニア」「大手SES企業」が狙い目です！</h1>
-        <img className={styles.topPhoto} src='/it/JobChangeTop.png' />
+        <img className={styles.topPhoto} src='/it/JobChangeTop.jpg' />
         <p className={styles.topPhotoSource}>HP管理人撮影</p>
         
         <p>

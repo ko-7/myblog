@@ -1,5 +1,3 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from '/styles/Index.module.scss';
@@ -7,6 +5,7 @@ import Layout from '/components/Layout';
 
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
+import LinkToArticle1 from '/components/LinkToArticle1'
 
 export default function Index(){
   return (<Layout>
@@ -42,12 +41,13 @@ export default function Index(){
           </Link>
         </div>
         
-        <div>pages/index</div>
-        <Link href="/it/JobChange">
-          <div className={styles.card}>
-          <p>コンテンツ</p>
-          </div>
-        </Link>
+        {/* 新着記事　---------------------------------------- */}
+        <h1>新着記事</h1>
+        <LinkToArticle1
+          path="/muscle/basic3Eat"
+          date="2021年8月9日"
+          title="食事制限⓶　おすすめのやり方"
+        />
       </div>
 
 

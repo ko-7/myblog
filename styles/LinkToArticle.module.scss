@@ -1,0 +1,25 @@
+// カードのCSS（Indexページで表示する形式）
+.card{
+  max-width: 600px;
+  margin-bottom: 120px;
+  &:hover{
+    cursor : pointer;
+  }
+  img{
+    width: 100%;
+  }
+  .date{
+    margin: 0;
+    text-align: right;
+  }
+  p{
+    margin: 0;
+    padding: 0 10px;
+    overflow-wrap: normal;
+  }
+  h1{
+    margin: 0;
+    padding: 0 10px;
+    overflow-wrap: normal;
+  }
+}

@@ -15,10 +15,6 @@ export default function Layout(props) {
       <meta charSet='utf-8' />
       <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
-      {/* レスポンシブのテキスト */}
-      <script src="flex-font-layout_2.0.0.js"></script>
-      <script src="flex-font-layout_editor_2.0.1.js"></script>
-
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <script async srs={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
       <script
