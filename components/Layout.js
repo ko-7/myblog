@@ -16,7 +16,7 @@ export default function Layout(props) {
       <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
       {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <script async srs={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+      {/* <script async srs={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -27,7 +27,7 @@ export default function Layout(props) {
               page_path: window.location.pathname,
             });`,
         }}
-      />
+      /> */}
     </Head>
 
     <Header header={props.header} title={props.title} />
