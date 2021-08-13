@@ -10,7 +10,7 @@ import Layout from '/components/Layout';
 
 import Profile from '/components/Profile';
 import Archive from '/components/Archive';
-import RecommendArticle from '/components/RecommendArticle';
+// import RecommendArticle from '/components/RecommendArticle';
 
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from '/store/counterSlice'
