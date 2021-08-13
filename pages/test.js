@@ -33,7 +33,7 @@ export default function Home(){
         <p>
           概要紹介<br />
         </p>
-        <RecommendArticle articleName="JobChange" text="testtext" />
+        {/* <RecommendArticle articleName="JobChange" text="testtext" /> */}
 
 
         <div>
